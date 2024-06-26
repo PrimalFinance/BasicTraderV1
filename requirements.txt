@@ -1,0 +1,6 @@
+ccxt
+pandas
+pandas-ta
+plotly
+python-dotenv
+web3

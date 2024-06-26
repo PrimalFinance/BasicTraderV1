@@ -1,0 +1,1 @@
+BASE_DATA_PATH = "D:\\1_DATASETS\\Crypto"
