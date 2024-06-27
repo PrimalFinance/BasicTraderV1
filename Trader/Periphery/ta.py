@@ -23,6 +23,7 @@ class TechnicalAnalysis:
         rs = avg_gain / avg_loss
         rsi = 100 - (100 / (1 + rs))
         df["rsi"] = rsi
+        df["rsi_ma"] = df["rsi"].rolling(window=period).mean()
         return df
 
     def apply_MACD(

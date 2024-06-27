@@ -1,4 +1,5 @@
 ccxt
+lumibot
 pandas
 pandas-ta
 plotly
